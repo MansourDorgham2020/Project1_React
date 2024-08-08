@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.row{
+  @apply flex flex-wrap
+}
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+
+.active{
+  background-color: #1ABC9C;
+  padding: 10px;
+  border-radius: 5px;
+}
